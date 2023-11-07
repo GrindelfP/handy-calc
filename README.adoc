@@ -1,0 +1,4 @@
+= Handy Calc =
+
+== Description ==
+This is a calculator capable of recognizing handwritten digits and operation symbols (+, -, *, /) and provide user with the result of the calculation.
