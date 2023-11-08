@@ -36,8 +36,8 @@ class CalculatorTest {
     @Test
     fun `GIVEN equation with multiple divisions AND correct result WHEN calculate THEN return correct result`() {
         // GIVEN
-        val equation = listOf("15", "+", "16", "-", "10", "/", "4", "/", "2")
-        val resultExpected = 29.75
+        val equation = listOf("15", "+", "16", "-", "4", "/", "10", "/", "2")
+        val resultExpected = 30.8
 
         // WHEN
         val resultActual = Calculator.calculate(equation)
